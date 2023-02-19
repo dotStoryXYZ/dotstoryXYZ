@@ -1,0 +1,30 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  // gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+    font-family: 'IBM Plex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  .footer__social {
+    display: flex;
+    gap: 1rem;
+  }
+}

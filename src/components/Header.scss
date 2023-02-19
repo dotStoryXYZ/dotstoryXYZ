@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  max-height: 80px;
+
+  hr {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    & {
+      img {
+        max-width: 170px;
+      }
+    }
+  }
+}
